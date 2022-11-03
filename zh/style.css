@@ -1,0 +1,174 @@
+
+header
+{
+   margin: 0;
+   background-image: url(header.jpg);
+   background-size: 100%;
+   background-position: center;
+   box-sizing: border-box;
+   height: 250px;
+   width: 70%;
+   padding-top: 25px;
+   text-align: center;
+   float: right;
+}
+header h1
+{
+    padding-top: 125px;
+    
+}
+nav
+{
+    width: 30%;
+    height:250px;
+    margin: 0;
+    box-sizing: border-box;
+    float: left;
+    background: purple;
+}
+nav ul
+{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+nav a
+{
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #dddddd;
+    transition: background 0.3s, color 0.3s;
+}
+nav a:hover
+{
+    background: #ff00ff;
+    color: black;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:lightskyblue;
+    color: black;
+}
+main
+{
+    float: left;
+    box-sizing: border-box;
+    width: 60%;
+    padding: 30px;
+    
+}
+main img
+{
+  width: 45%;
+  height: 200px;
+  padding: 10px;
+}
+main a
+{
+    background: purple;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: inline-block;
+    transition: background 0.3s, color 0.3s;
+}
+main a:hover
+{
+    color:black;
+    background: #ff00ff;
+}
+h3
+{
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+thead
+{
+    background: purple;
+    color: white;
+    
+}
+th
+{
+    text-align: left;
+}
+th,
+td
+{
+    padding: 10px;
+    padding-left: 15px;
+    
+}
+tbody tr
+{
+    border-bottom: 1px solid #dddddd;
+    color: black;
+}
+tbody tr:hover
+{
+    background-color: lightsteelblue;
+    
+}
+aside
+{
+    float: right;
+    box-sizing: border-box;
+    width: 40%;
+    padding: 25px;
+    
+}
+aside h3
+{
+   border: 0;
+}
+aside img
+{
+    height: 95%;
+    width: 95%;
+    padding: 10px
+}
+aside section
+{
+    background: purple;
+    color: white;
+    transition: background 0.3s, color 0.3s;
+}
+aside section:hover
+{
+    color: black;
+    background: #ff00ff;
+}
+aside h3,
+aside p
+{
+    padding: 15px;
+}
+footer
+{
+    
+    clear: both;
+    background: purple;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    padding-top: 10px;
+}
+footer p
+{
+    padding-top: 10px;
+}
